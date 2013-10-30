@@ -304,10 +304,11 @@ match ErrorMsg '^\(<\|=\|>\)\{7\}\([^=].\+\)\?$'
 
 " You want to be part of the gurus? Time to get in serious stuff and stop using
 " arrow keys.
-noremap <left> <nop>
-noremap <up> <nop>
-noremap <down> <nop>
-noremap <right> <nop>
+" A: I sure do but meanwhile let me use arrow keys :) for awhile
+"noremap <left> <nop>
+"noremap <up> <nop>
+"noremap <down> <nop>
+"noremap <right> <nop>
 
 " Yank from current cursor position to end of line
 map Y y$
