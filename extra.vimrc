@@ -10,3 +10,5 @@ nmap <leader>f :let @/="\\<<C-R><C-W>\\>"<CR>:set hls<CR>:silent Ggrep -w "<C-R>
 Bundle 'chrisbra/csv.vim'
 
 Bundle 'basepi/vim-conque'
+
+Bundle 'derekwyatt/vim-scala'
