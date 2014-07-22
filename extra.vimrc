@@ -12,3 +12,5 @@ Bundle 'chrisbra/csv.vim'
 Bundle 'basepi/vim-conque'
 
 Bundle 'derekwyatt/vim-scala'
+
+Bundle 'rodjek/vim-puppet'
