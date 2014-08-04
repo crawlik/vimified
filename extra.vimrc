@@ -14,3 +14,6 @@ Bundle 'basepi/vim-conque'
 Bundle 'derekwyatt/vim-scala'
 
 Bundle 'rodjek/vim-puppet'
+
+" This script highlights words under the cursor like many IDEs.
+Bundle 'ihacklog/HiCursorWords'
