@@ -18,4 +18,9 @@ Bundle 'rodjek/vim-puppet'
 " This script highlights words under the cursor like many IDEs.
 Bundle 'crawlik/HiCursorWords'
 
+Plugin 'henrik/vim-ruby-runner'
+command! FR set filetype=ruby
+let g:RubyRunner_keep_focus_key = '<F5>'
+let g:RubyRunner_key = '<F4>'
+
 highlight link WordUnderTheCursor Visual
