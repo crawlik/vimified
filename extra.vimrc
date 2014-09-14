@@ -24,3 +24,7 @@ let g:RubyRunner_keep_focus_key = '<F5>'
 let g:RubyRunner_key = '<F4>'
 
 highlight link WordUnderTheCursor Visual
+
+Plugin 'thoughtbot/vim-rspec'
+
+set pastetoggle=<F2>
