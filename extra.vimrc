@@ -25,6 +25,13 @@ let g:RubyRunner_key = '<F4>'
 
 highlight link WordUnderTheCursor Visual
 
-Plugin 'thoughtbot/vim-rspec'
-
+" Toggle Paste mode - paster w/o formating as is
 set pastetoggle=<F2>
+
+" Enable vim rspec and map its operations
+" :let mapleader shows <Leader> key
+Plugin 'thoughtbot/vim-rspec'
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
