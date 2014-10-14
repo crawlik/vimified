@@ -14,3 +14,8 @@ map <left> h
 map <up> k
 map <down> j
 map <right> l
+
+" Tabs
+set showtabline=2 " Tab is always on
+map z<left> :tabp<cr>
+map z<right> :tabn<cr>
