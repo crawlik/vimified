@@ -19,3 +19,6 @@ map <right> l
 set showtabline=2 " Tab is always on
 map z<left> :tabp<cr>
 map z<right> :tabn<cr>
+
+" Set bash shell for external commands
+set shell=bash\ -l
