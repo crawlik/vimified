@@ -1,6 +1,7 @@
 " Use vim-fugitive outside of coding group because syntastic is slow to load on
 " OSX 10.9 for some reason
 Bundle 'tpope/vim-fugitive'
+
 nmap <leader>g :Ggrep
 " ,f for global git serach for word under the cursor (with highlight)
 nmap <leader>f :let @/="\\<<C-R><C-W>\\>"<CR>:set hls<CR>:silent Ggrep -w "<C-R><C-W>"<CR>:ccl<CR>:cw<CR><CR>¬
@@ -35,3 +36,6 @@ map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
+
+Plugin 'suan/vim-instant-markdown'
+let g:instant_markdown_slow = 1
