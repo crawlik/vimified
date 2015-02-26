@@ -39,3 +39,6 @@ map <Leader>a :call RunAllSpecs()<CR>
 
 Plugin 'suan/vim-instant-markdown'
 let g:instant_markdown_slow = 1
+let g:instant_markdown_autostart = 0
+
+" Plugin 'elzr/vim-json'
