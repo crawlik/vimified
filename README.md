@@ -78,6 +78,10 @@ Available packages:
  * haskell
  * elixir
  * color
+ * python
+ * go
+ * elm
+ * rust
 
 ### General
 
@@ -134,7 +138,7 @@ eunuch.vim: helpers for UNIX
 
 A tree explorer plugin for vim.
 
-**Command:** `ctrl-u`
+**Command:** `Tab`
 
 #### [vim-textobj-user](https://github.com/kana/vim-textobj-user)
 
@@ -377,6 +381,10 @@ environments.
 #### [vim-hybrid](https://github.com/w0ng/vim-hybrid)
 
 A dark colourscheme combining Jellybeans, Solarized and Tomorrow Night.
+
+#### [sourcerer](https://github.com/xero/sourcerer.vim)
+
+A 16 bit dark color scheme for hackers.
 
 ## Call for Help
 
